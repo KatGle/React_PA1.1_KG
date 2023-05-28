@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+b {
+    line-height: 50px;
+}
+
+.header-navigation {
+    min-height: 30vw;
+    max-width: 35vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.73);
+    padding: 20px;
+    text-align: left;
+    line-height: 25px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.icons {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#logo-sneat {
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.App-logo {
+    width: 25px;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 895px) {
+    b {
+        display: none;
+    }
+
+    h2 {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    #logo-sneat {
+        height: 25px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .icons {
+        width: 35px;
+    }
+
+    .App-logo {
+        width: 40px;
+    }
+
+    .left-menu {
+        display: none;
+    }
+
+    .header-navigation {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    b {
+        display: none;
+    }
+
+    .left-menu {
+        display: none;
+    }
+
+    .icons {
+        width: 30px;
+    }
+
+    .App-logo {
+        width: 35px;
+    }
+
+}
+
+
